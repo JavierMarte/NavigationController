@@ -39,7 +39,7 @@ public class CompanyFragment extends ListFragment {
         actionBar.setDisplayShowCustomEnabled(true);
         title.setText("Watch List");
 
-        String[] companies = new String[] { "Apple", "Samsung" };
+        String[] companies = new String[] { "Apple", "Samsung", "Lg" };
 
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, companies);

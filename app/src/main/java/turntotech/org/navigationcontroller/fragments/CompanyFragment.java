@@ -41,7 +41,7 @@ public class CompanyFragment extends ListFragment {
 
         String[] companies = new String[] { "Apple", "Samsung", "Lg" };
 
-
+//testttttttttttttttt
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, companies);
         setListAdapter(arrayAdapter);
 

@@ -52,16 +52,16 @@ public class ProductFragment extends ListFragment {
         String[] products = null;
 
         if(companyPosition==0){
-            products = new String[] { "iPhone", "iPAD" };
+            products = new String[] { "iPhone5", "iPAD", "iphone6" };
         }
         if(companyPosition==1){
-            products = new String[] { "Galaxy Note", "Galaxy Tab" };
+            products = new String[] { "Galaxy Note", "Galaxy Tab", "galaxy 6" };
         }
         if(companyPosition==2){
-            products = new String[] { "G5", "V10" };
+            products = new String[] { "G5", "V10", "lgk4"};
         }
         if(companyPosition==3){
-            products = new String[] { "5X", "6P" };
+            products = new String[] { "5X", "6P","cdma" };
         }
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, products);

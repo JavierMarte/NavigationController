@@ -58,10 +58,10 @@ public class ProductFragment extends ListFragment {
             products = new String[] { "Galaxy Note", "Galaxy Tab" };
         }
         if(companyPosition==2){
-            products = new String[] { "Galaxy Note", "Galaxy Tab" };
+            products = new String[] { "G5", "V10" };
         }
         if(companyPosition==3){
-            products = new String[] { "Galaxy Note", "Galaxy Tab" };
+            products = new String[] { "5X", "6P" };
         }
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, products);

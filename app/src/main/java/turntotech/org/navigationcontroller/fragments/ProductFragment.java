@@ -57,7 +57,12 @@ public class ProductFragment extends ListFragment {
         if(companyPosition==1){
             products = new String[] { "Galaxy Note", "Galaxy Tab" };
         }
-
+        if(companyPosition==2){
+            products = new String[] { "Galaxy Note", "Galaxy Tab" };
+        }
+        if(companyPosition==3){
+            products = new String[] { "Galaxy Note", "Galaxy Tab" };
+        }
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, products);
         setListAdapter(arrayAdapter);
